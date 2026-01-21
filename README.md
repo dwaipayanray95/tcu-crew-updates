@@ -12,7 +12,7 @@ update channel for distribution of TCU Crew App. An app for TCU Studios.
 ## v0.1.82
 - Build: bumped app version to v0.1.82.
 - Updates: AW sidecar is stopped before OTA installs to avoid file locks.
-- Installer: NSIS preinstall now closes TCU Crew and ActivityWatch processes.
+- Installer: NSIS preinstall now closes TCU Crew and AW processes.
 - UI: version pill now always reflects the build version.
 
 ## v0.1.71

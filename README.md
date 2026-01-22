@@ -51,7 +51,7 @@ That message should clear on its own—**please wait until it disappears** befor
 # Changelog
 
 ## v0.2.0
-- Wohoo! Got it work for Mac OS! 
+- Wohoo! Got it to work for Mac OS! 
 - UI: custom glass titlebar with Minimize/Power Off controls and sticky header behavior.
 - UI: Liquid Carbon refinements (background gradient, scrollbars, softer hover lighting, darker manage-day popover).
 - UI: clock widget now compact with time-of-day visuals driven by local sunrise/sunset.

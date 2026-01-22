@@ -49,6 +49,13 @@ That message should clear on its own—**please wait until it disappears** befor
 ## Unreleased (v0.1.9)
 - TBD
 
+## v0.1.83
+- Wohoo! We have an app for Mac as well!
+- Overall Major UI changes
+- Major UI Overhaul again - Refined Liquid Carbon Design System
+- Major changes ahead
+- Weather is broken for Mac
+
 ## v0.1.82
 - Build: bumped app version to v0.1.82.
 - Updates: AW sidecar is stopped before OTA installs to avoid file locks.

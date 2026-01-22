@@ -1,8 +1,48 @@
-# TCU Crew App Updates
-update channel for distribution of TCU Crew App. An app for TCU Studios.
+# TCU Crew Command Center
+DOWNLOAD LATEST VERSION 
+https://github.com/dwaipayanray95/tcu-crew-updates/releases 
 
-# DOWNLOAD LATEST VERSION 
-## https://github.com/dwaipayanray95/tcu-crew-updates/releases 
+**TCU Crew Command Center** is the all-in-one desktop app for **TCU Studios**—built to keep the whole crew aligned and moving fast.
+
+## What it does
+
+- **Google Sign-In** – quick, familiar access  
+- **Daily Check-In / Check-Out** – track attendance with ease  
+- **Announcements** – stay updated with studio-wide notes and updates  
+- **More features to come in soon / Will update a submit feature request page too
+- Lots of features and changes. Complete changelog below.
+
+## Offline-Friendly by Design
+
+No internet? No problem.
+
+TCU Crew Command Center is **offline-friendly** and will continue working even when you’re disconnected. Once you’re back online, it **syncs automatically**.
+
+## If the app feels stuck
+
+Sometimes the app may appear frozen or not respond as expected. A refresh usually fixes it.. I am just a vibe coder
+
+1. **Right-click anywhere inside the app**
+2. Select **Refresh**
+3. The **login screen will reload**
+4. **Wait a few seconds** before clicking **Log in** or anything else. The app will load.
+5. The app is thoroughly tested
+6. Contact me for beta tests :')
+
+### About “Supabase is not configured”
+
+During refresh, you may briefly see:
+
+> “Supabase is not configured”
+
+That message should clear on its own—**please wait until it disappears** before continuing.  
+(I am improving this behavior in a future update.)
+
+---
+
+**TCU Studios • TCU Crew Command Center**
+
+
 
 # Changelog
 

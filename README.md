@@ -12,11 +12,7 @@ https://github.com/dwaipayanray95/tcu-crew-updates/releases
 - **More features to come in soon / Will update a submit feature request page too
 - Lots of features and changes. Complete changelog below.
 
-## Offline-Friendly by Design
-
-No internet? No problem.
-
-TCU Crew Command Center is **offline-friendly** and will continue working even when you’re disconnected. Once you’re back online, it **syncs automatically**.
+## Still a WIP
 
 ## If the app feels stuck
 
@@ -46,8 +42,25 @@ That message should clear on its own—**please wait until it disappears** befor
 
 # Changelog
 
-## Unreleased (v0.1.9)
-- TBD
+## v0.1.9
+- Wohoo! Got it work for Mac OS! 
+- UI: custom glass titlebar with Minimize/Power Off controls and sticky header behavior.
+- UI: Liquid Carbon refinements (background gradient, scrollbars, softer hover lighting, darker manage-day popover).
+- UI: clock widget now compact with time-of-day visuals driven by local sunrise/sunset.
+- UI: weather + city line added to the clock widget, with location-use prompt.
+- UI: user attendance analytics panel with weekly/monthly breakdown modal.
+- Settings: 12/24-hour clock toggle.
+- Settings: in-app changelog viewer.
+- Tray: quick tray menu actions for dashboard/admin/settings/manage leaves/clock in/out + quit; focus main window on tray actions.
+- Admin: new sub-tabs (Quick Access/Employee/Leave Approvals) with employee snapshot + attendance insights panel.
+- Admin: attendance insights include monthly range controls and metrics (days present/absent, avg clock-in, avg hours, totals, late count).
+- Notifications: leave request/approval updates now notify both user and admin (realtime + polling fallback).
+- Auth: macOS OAuth uses system browser with deep-link return support.
+- Attendance: auto-checkout on next launch using heartbeat timestamp after force-quit/shutdown.
+- Attendance: weekly totals and clock-in averages for user/admin views.
+- Updates: macOS updater artifacts supported (app tarball + signature).
+- macOS: location permission prompt + IP-based geolocation fallbacks for weather.
+- macOS: app icon padded to better fill the dock mask.
 
 ## v0.1.83
 - Wohoo! We have an app for Mac as well!
@@ -58,20 +71,13 @@ That message should clear on its own—**please wait until it disappears** befor
 
 ## v0.1.82
 - Build: bumped app version to v0.1.82.
-- Updates: AW sidecar is stopped before OTA installs to avoid file locks.
 - Installer: NSIS preinstall now closes TCU Crew and AW processes.
 - UI: version pill now always reflects the build version.
 
 ## v0.1.71
 - Build: bumped app version to v0.1.71 and enabled updater artifacts for signed releases.
 - Updates: settings now supports manual update checks with clearer messaging.
-- Settings: added "Submit bug report" workflow that prepares logs and opens a draft email.
-- Fix: AW sidecar bundle path glob corrected for Windows builds.
-- Fix: background AW child processes now terminate on app exit.
-- Fix: AW sidecar now launches without opening extra console windows on Windows.
-
-## v0.1.6
-- Integrate and Implement AW
+- Settings: added "Submit bug report" workflow that prepares logs and opens a draft email
 
 ## v0.1.5
 - Major updates all over the place

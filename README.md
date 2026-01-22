@@ -3,8 +3,8 @@
 **TCU Crew Command Center** is the all-in-one desktop app for **TCU Studios** built to keep the whole crew aligned and eventually our one stop solution for everything. 🕶️
 
 ## INSTALLATION GUIDE
-- Windows users download and install the latest .exe file from the link above or from the releases page. If the smart screen filter pops-up by pass it. I have made the app so of course it safe 👍 😎
-- Mac users download and install the latest .dmg from the link above or from the releases page. 🍎
+- Windows users download and install the latest .exe file from the link below or from the releases page. If the smart screen filter pops-up by pass it. I have made the app so of course it safe 👍 😎
+- Mac users download and install the latest .dmg from the link below or from the releases page. 🍎
 - No need to download future versions post installation as the app auto updates. 😎
 #
 

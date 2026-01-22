@@ -1,9 +1,15 @@
 # TCU Crew Command Center
-DOWNLOAD LATEST VERSION 
-https://github.com/dwaipayanray95/tcu-crew-updates/releases 
 
-**TCU Crew Command Center** is the all-in-one desktop app for **TCU Studios**—built to keep the whole crew aligned and moving fast.
+**TCU Crew Command Center** is the all-in-one desktop app for **TCU Studios** built to keep the whole crew aligned and eventually our one stop solution for everything. 🕶️
 
+## INSTALLATION GUIDE
+- Windows users download and install the latest .exe file from the link above or from the releases page. If the smart screen filter pops-up by pass it. I have made the app so of course it safe 👍 😎
+- Mac users download download and install the latest .dmg from the link above or from the releases page. 🍎
+- No need to download future versions post installation as the app auto updates. 😎
+#
+
+DOWNLOAD LATEST VERSION - https://github.com/dwaipayanray95/tcu-crew-updates/releases 
+#
 ## What it does
 
 - **Google Sign-In** – quick, familiar access  
@@ -11,6 +17,8 @@ https://github.com/dwaipayanray95/tcu-crew-updates/releases
 - **Announcements** – stay updated with studio-wide notes and updates  
 - **More features to come in soon / Will update a submit feature request page too
 - Lots of features and changes. Complete changelog below.
+
+# Check out the changelog for an entire feature list #
 
 ## Still a WIP
 

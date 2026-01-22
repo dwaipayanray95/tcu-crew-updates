@@ -4,7 +4,7 @@
 
 ## INSTALLATION GUIDE
 - Windows users download and install the latest .exe file from the link above or from the releases page. If the smart screen filter pops-up by pass it. I have made the app so of course it safe 👍 😎
-- Mac users download download and install the latest .dmg from the link above or from the releases page. 🍎
+- Mac users download and install the latest .dmg from the link above or from the releases page. 🍎
 - No need to download future versions post installation as the app auto updates. 😎
 #
 
@@ -50,7 +50,7 @@ That message should clear on its own—**please wait until it disappears** befor
 
 # Changelog
 
-## v0.1.9
+## v0.2.0
 - Wohoo! Got it work for Mac OS! 
 - UI: custom glass titlebar with Minimize/Power Off controls and sticky header behavior.
 - UI: Liquid Carbon refinements (background gradient, scrollbars, softer hover lighting, darker manage-day popover).

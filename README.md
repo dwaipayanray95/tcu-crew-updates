@@ -50,6 +50,19 @@ That message should clear on its own—**please wait until it disappears** befor
 
 # Changelog
 
+## v0.3.0 ##
+- UI: refreshed modal/notification close icon styling.
+- Chat: LAN-first messaging matured with stronger connection handling, clearer connection state labels, and color-coded status (LAN direct/relay/connecting).
+- Chat: crew panel now shows Online + All crew (including offline users) with avatars, unread badges, and tighter stacked cards.
+- Chat: profiles show name + first clock-in time on cards.
+- Chat: realtime updates while the modal is open with auto-scroll to latest.
+- Chat: message reactions (👍🔥😂), read receipts, edit/delete, and typing indicator.
+- Chat: improved file transfer UX (inline history, proper Sent/Received labels, dynamic progress).
+- Chat: per-platform notification handling and ability to foreground chat on new messages.
+- Stability: reduced freezes during clock in/out and multi-chat focus handling.
+- Platform: geolocation plugin enabled and reverse-geocode refresh behavior improved. Windows is still a little buggy and needs to manually fetch location.
+- Packaging: build and dependency fixes, Windows build attempts, TCU-AW renamed in resources, app version bumped to v0.2.2 along the way.
+
 ## v0.2.0
 - Wohoo! Got it to work for Mac OS! 
 - UI: custom glass titlebar with Minimize/Power Off controls and sticky header behavior.

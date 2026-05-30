@@ -1,13 +1,13 @@
 {
   "version": "2.5.0",
   "notes": "Workstation controls synchronization, premium Carbon dark themes, and network performance optimizations.",
-  "pub_date": "2026-05-30T15:15:00Z",
+  "pub_date": "2026-05-30T20:50:00Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.5.0/tcu-crew_2.5.0_macos_arm64.dmg"
+      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.5.0/tcu-crew_2.5.0.dmg"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.5.0/tcu-crew_2.5.0_macos_arm64.dmg"
+      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.5.0/tcu-crew_2.5.0.dmg"
     },
     "windows-x86_64": {
       "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.5.0/tcu-crew_2.5.0_windows_x64-setup.exe"

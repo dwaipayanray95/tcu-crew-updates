@@ -1,16 +1,16 @@
 {
-  "version": "2.8.0",
-  "notes": "Seamless background DMG silent auto-update engine active! Fully resolved download stream completion hangs.",
-  "pub_date": "2026-05-30T21:14:00Z",
+  "version": "2.9.0",
+  "notes": "Native DMG launcher updates, automated application shutdown to prevent file copy conflicts, and streamlined manual install experience.",
+  "pub_date": "2026-05-30T21:42:00Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.8.0/tcu-crew_2.8.0.dmg"
+      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.9.0/tcu-crew_2.9.0.dmg"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.8.0/tcu-crew_2.8.0.dmg"
+      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.9.0/tcu-crew_2.9.0.dmg"
     },
     "windows-x86_64": {
-      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.8.0/tcu-crew_2.8.0_windows_x64-setup.exe"
+      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.9.0/tcu-crew_2.9.0_windows_x64-setup.exe"
     }
   }
 }

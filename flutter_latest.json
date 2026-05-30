@@ -1,16 +1,16 @@
 {
-  "version": "2.10.0",
-  "notes": "Native DMG launcher updates, automated application shutdown to prevent file copy conflicts, and streamlined manual install experience.",
-  "pub_date": "2026-05-30T21:47:00Z",
+  "version": "2.11.0",
+  "notes": "Native macOS Cocoa DMG launcher updates, sandbox network permissions integration, and instant conflict-free app shutdown auto-updater.",
+  "pub_date": "2026-05-30T21:52:00Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.10.0/tcu-crew_2.10.0.dmg"
+      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.11.0/tcu-crew_2.11.0.dmg"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.10.0/tcu-crew_2.10.0.dmg"
+      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.11.0/tcu-crew_2.11.0.dmg"
     },
     "windows-x86_64": {
-      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.10.0/tcu-crew_2.10.0_windows_x64-setup.exe"
+      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.11.0/tcu-crew_2.11.0_windows_x64-setup.exe"
     }
   }
 }

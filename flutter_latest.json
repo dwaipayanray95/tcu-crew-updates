@@ -1,5 +1,5 @@
 {
-  "version": "2.14.0",
+  "version": "2.13.0",
   "notes": "Fixed silent download path directory creation hangs, unsandboxed background auto-updates integration, silent DMG hdiutil mounting and bash-based self-replacement.",
   "pub_date": "2026-06-01T12:38:00Z",
   "platforms": {

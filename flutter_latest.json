@@ -1,16 +1,16 @@
 {
-  "version": "2.13.0",
+  "version": "2.14.0",
   "notes": "Fixed silent download path directory creation hangs, unsandboxed background auto-updates integration, silent DMG hdiutil mounting and bash-based self-replacement.",
-  "pub_date": "2026-06-01T12:30:00Z",
+  "pub_date": "2026-06-01T12:56:00Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.13.0/tcu-crew_2.13.0.dmg"
+      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.14.0/tcu-crew_2.14.0.dmg"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.13.0/tcu-crew_2.13.0.dmg"
+      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.14.0/tcu-crew_2.14.0.dmg"
     },
     "windows-x86_64": {
-      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.13.0/tcu-crew_2.13.0_windows_x64-setup.exe"
+      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.14.0/tcu-crew_2.14.0_windows_x64-setup.exe"
     }
   }
 }

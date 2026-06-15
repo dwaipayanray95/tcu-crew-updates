@@ -1,16 +1,16 @@
 {
-  "version": "2.26",
-  "notes": "Fixed silent download path directory creation hangs, unsandboxed background auto-updates integration, silent DMG hdiutil mounting and bash-based self-replacement.",
-  "pub_date": "2026-06-01T20:19:00Z",
+  "version": "2.71",
+  "notes": "UI/UX overhaul, bug fixes",
+  "pub_date": "2026-06-15T20:19:00Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.26/tcu-crew_2.26.dmg"
+      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.71/tcu-crew_2.71.dmg"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.26/tcu-crew_2.26.dmg"
+      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.71/tcu-crew_2.71.dmg"
     },
     "windows-x86_64": {
-      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.26/tcu-crew_2.26.exe"
+      "url": "https://github.com/dwaipayanray95/tcu-crew-updates/releases/download/v2.71/tcu-crew_2.71.exe"
     }
   }
 }

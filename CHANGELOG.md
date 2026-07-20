@@ -1,3 +1,51 @@
+## v3.1.40 - 2026-07-20
+
+- chore: bump version to 3.1.40 (43795dc)
+- fix: don't let notification-permission init block app startup (d83e055)
+- ci: drop Android from tag-triggered release pipeline (aa1a783)
+- fix: remove unused _showTotalHoursDialog to unblock CI analyze gate (247cbad)
+- Huge amount of changes overall, theme, clickup, security etc. (44e7dd6)
+- ci: automate changelog on release, rotate Google client ID, fix RLS script (a4ef526)
+- fix: fix login via new sdk (a77afcf)
+- ci: add signed/checked release pipeline, fix CI-blocking gaps (b54397a)
+- security: remediate audit findings — secrets, RLS, updater integrity, P2P auth (8ad2235)
+- ci: Add GitHub Actions workflow for on-demand release builds (Android arm64-v8a APK, macOS DMG, Windows Inno Setup EXE) (0bc3155)
+- clickup list persistence over users (f077daf)
+- feat: Add force global update trigger and first launch markdown release notes dialog (967bd04)
+- add afk and a few fixes on macos (526f973)
+- add scroll feature to aw (59d6e2b)
+- docs(context-mode): update GEMINI.md, agents.md, contexts.md for v2.98 feature set (7c46514)
+- rework aw interface (a5fae83)
+- added support for release notes on new installs (7657236)
+- Add backup to google drive feature (2af62af)
+- Chat fixes, more glassy & android build fixes (164e214)
+- fix incoming notification & unknown user naming issue in spaces (6ea558c)
+
+<details><summary>Full commit list</summary>
+
+- chore: bump version to 3.1.40 (43795dc)
+- fix: don't let notification-permission init block app startup (d83e055)
+- ci: drop Android from tag-triggered release pipeline (aa1a783)
+- fix: remove unused _showTotalHoursDialog to unblock CI analyze gate (247cbad)
+- Huge amount of changes overall, theme, clickup, security etc. (44e7dd6)
+- ci: automate changelog on release, rotate Google client ID, fix RLS script (a4ef526)
+- fix: fix login via new sdk (a77afcf)
+- ci: add signed/checked release pipeline, fix CI-blocking gaps (b54397a)
+- security: remediate audit findings — secrets, RLS, updater integrity, P2P auth (8ad2235)
+- ci: Add GitHub Actions workflow for on-demand release builds (Android arm64-v8a APK, macOS DMG, Windows Inno Setup EXE) (0bc3155)
+- clickup list persistence over users (f077daf)
+- feat: Add force global update trigger and first launch markdown release notes dialog (967bd04)
+- add afk and a few fixes on macos (526f973)
+- add scroll feature to aw (59d6e2b)
+- docs(context-mode): update GEMINI.md, agents.md, contexts.md for v2.98 feature set (7c46514)
+- rework aw interface (a5fae83)
+- added support for release notes on new installs (7657236)
+- Add backup to google drive feature (2af62af)
+- Chat fixes, more glassy & android build fixes (164e214)
+- fix incoming notification & unknown user naming issue in spaces (6ea558c)
+
+</details>
+
 ## v3.1.39 - 2026-07-20
 
 - ci: drop Android from tag-triggered release pipeline (aa1a783)

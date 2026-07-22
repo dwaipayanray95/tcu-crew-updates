@@ -1,3 +1,31 @@
+## v3.3.20 - 2026-07-22
+
+- feat: added notification support (a57d574)
+- fix logic and layout change in admin panel (1/2) and update build scripts (ac983aa)
+- refactor: split DatabaseService god-class into domain repos (d711ed0)
+- refactor: splitoversized files and clean up lint debt (296a59d)
+- make changes to admin panel and fix security stuff (c14bb6e)
+- style(clickup): rework the UI for clickup and tasks (b19deab)
+- feat: show live sync/backup status in dashboard header (5855f61)
+- perf: lower ClickUp sync poll interval from 30s to 15s (921b6dc)
+- feat: add attachment upload UI for ClickUp tasks (9beb1bf)
+- security: prevent non-admin users from self-escalating via profiles.role (36b7a29)
+
+<details><summary>Full commit list</summary>
+
+- feat: added notification support (a57d574)
+- fix logic and layout change in admin panel (1/2) and update build scripts (ac983aa)
+- refactor: split DatabaseService god-class into domain repos (d711ed0)
+- refactor: splitoversized files and clean up lint debt (296a59d)
+- make changes to admin panel and fix security stuff (c14bb6e)
+- style(clickup): rework the UI for clickup and tasks (b19deab)
+- feat: show live sync/backup status in dashboard header (5855f61)
+- perf: lower ClickUp sync poll interval from 30s to 15s (921b6dc)
+- feat: add attachment upload UI for ClickUp tasks (9beb1bf)
+- security: prevent non-admin users from self-escalating via profiles.role (36b7a29)
+
+</details>
+
 ## v3.1.41 - 2026-07-20
 
 - fix: app not drawing due to db migration (423a01d)

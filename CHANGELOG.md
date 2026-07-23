@@ -1,3 +1,39 @@
+## v3.6.1 - 2026-07-23
+
+- [Add persistent warning dialog before entering the MCP tab] (50ad7f1)
+- feat: [Add Master Control Panel: attendance export, employee edit, fleet controls, data cleanup, and destructive admin tools] (d32cbe1)
+- style: [Restyle admin approval buttons and group App Sessions by app with detail view] (b5e00aa)
+- [Add dispute_locked flag to prevent nightly consolidation from overwriting approved disputes] (0dcdc1f)
+- fix: [Punctuality stat not refreshing after dispute approval] (2d098ff)
+- add google OAuth reauth guard, google task fixes, calendar hover details, clickup webhook staleness guard (465b781)
+- now hovering over calendar dates showcases the daily stats for that particular day (b7b393e)
+- add notificaiton reminder for task and add ability to set date and time for tasks (31ef550)
+- add richer task/creation and editing (78c835e)
+- chore: auto sign out user if google scopes missing (3a764e0)
+- feat: integrate google tasks (53edeb7)
+- fix: changelog url (7693ec1)
+- remove real-time audit toast system (aeddbc9)
+- add attendance calendar overhaul, dispute pipeline fixes and daily shift consolidation (7e94599)
+
+<details><summary>Full commit list</summary>
+
+- [Add persistent warning dialog before entering the MCP tab] (50ad7f1)
+- feat: [Add Master Control Panel: attendance export, employee edit, fleet controls, data cleanup, and destructive admin tools] (d32cbe1)
+- style: [Restyle admin approval buttons and group App Sessions by app with detail view] (b5e00aa)
+- [Add dispute_locked flag to prevent nightly consolidation from overwriting approved disputes] (0dcdc1f)
+- fix: [Punctuality stat not refreshing after dispute approval] (2d098ff)
+- add google OAuth reauth guard, google task fixes, calendar hover details, clickup webhook staleness guard (465b781)
+- now hovering over calendar dates showcases the daily stats for that particular day (b7b393e)
+- add notificaiton reminder for task and add ability to set date and time for tasks (31ef550)
+- add richer task/creation and editing (78c835e)
+- chore: auto sign out user if google scopes missing (3a764e0)
+- feat: integrate google tasks (53edeb7)
+- fix: changelog url (7693ec1)
+- remove real-time audit toast system (aeddbc9)
+- add attendance calendar overhaul, dispute pipeline fixes and daily shift consolidation (7e94599)
+
+</details>
+
 ## v3.3.38 - 2026-07-23
 
 - rework the calendar to handle leaves and disputes properly (05fcbdb)

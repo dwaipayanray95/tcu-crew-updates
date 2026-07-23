@@ -1,3 +1,29 @@
+## v3.3.38 - 2026-07-23
+
+- rework the calendar to handle leaves and disputes properly (05fcbdb)
+- perf: explicitly use impeller renderer on mac os (4466aaa)
+- fix: auto start on macos (77fb453)
+- feat: now able to attach files to click up comments and shows assigned comments from clickup (fd9b080)
+- fix: notifications for users if they made changes on clickup (e45689e)
+- fix: notification sound on macos (5e9a171)
+- optimise clickup taska layout (eda123c)
+- feat: added reliable clickup notifications via webhook (f7a1985)
+- rearrange the notification UI a bit (7494934)
+
+<details><summary>Full commit list</summary>
+
+- rework the calendar to handle leaves and disputes properly (05fcbdb)
+- perf: explicitly use impeller renderer on mac os (4466aaa)
+- fix: auto start on macos (77fb453)
+- feat: now able to attach files to click up comments and shows assigned comments from clickup (fd9b080)
+- fix: notifications for users if they made changes on clickup (e45689e)
+- fix: notification sound on macos (5e9a171)
+- optimise clickup taska layout (eda123c)
+- feat: added reliable clickup notifications via webhook (f7a1985)
+- rearrange the notification UI a bit (7494934)
+
+</details>
+
 ## v3.3.20 - 2026-07-22
 
 - feat: added notification support (a57d574)

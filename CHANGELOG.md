@@ -1,3 +1,35 @@
+## v3.8.20 - 2026-07-29
+
+- [Sign Android release APKs and publish them via the GitHub release pipeline] (ad88912)
+- fix(mobile ui): [double headers, notification overflow, appbar seam, stat card sizing] (bc97424)
+- [Redesign Android bottom nav as a floating glass pill with droplet-morph animation] (a40fe52)
+- [Foreground desktop app and open chat on new LAN message] (d6c1598)
+- fix: [LAN self-message fan-out to all online devices] (3a2d8b3)
+- fix: [chat auto-scroll to latest message and integrate context-mode for the project] (ea7bc47)
+- fix: [LAN self-messaging, cross-device delivery, and employee_id corruption bug] (fd6e849)
+- fix: [LAN P2P self-messaging, Android back button, cleartext networking, and match mobile dashboard/calendar styling to desktop] (165095a)
+- [Add Android support with LAN P2P multi-device messaging, retheme mobile screens to match desktop, and refresh docs] (55dcabf)
+- style: [Redesign MCP editor into themed sub-cards with danger zone last, add table row-count storage overview] (bf0737c)
+- [Add per-employee notification clear with confirmation, make MCP editor a full-screen dialog, fix clock-in notification timezone] (09d2fea)
+- fix: [approveDispute failing when a day has multiple raw shift rowsleft] (1ed5560)
+
+<details><summary>Full commit list</summary>
+
+- [Sign Android release APKs and publish them via the GitHub release pipeline] (ad88912)
+- fix(mobile ui): [double headers, notification overflow, appbar seam, stat card sizing] (bc97424)
+- [Redesign Android bottom nav as a floating glass pill with droplet-morph animation] (a40fe52)
+- [Foreground desktop app and open chat on new LAN message] (d6c1598)
+- fix: [LAN self-message fan-out to all online devices] (3a2d8b3)
+- fix: [chat auto-scroll to latest message and integrate context-mode for the project] (ea7bc47)
+- fix: [LAN self-messaging, cross-device delivery, and employee_id corruption bug] (fd6e849)
+- fix: [LAN P2P self-messaging, Android back button, cleartext networking, and match mobile dashboard/calendar styling to desktop] (165095a)
+- [Add Android support with LAN P2P multi-device messaging, retheme mobile screens to match desktop, and refresh docs] (55dcabf)
+- style: [Redesign MCP editor into themed sub-cards with danger zone last, add table row-count storage overview] (bf0737c)
+- [Add per-employee notification clear with confirmation, make MCP editor a full-screen dialog, fix clock-in notification timezone] (09d2fea)
+- fix: [approveDispute failing when a day has multiple raw shift rowsleft] (1ed5560)
+
+</details>
+
 ## v3.6.1 - 2026-07-23
 
 - [Add persistent warning dialog before entering the MCP tab] (50ad7f1)

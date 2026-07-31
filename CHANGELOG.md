@@ -1,3 +1,37 @@
+## v3.10.15 - 2026-07-31
+
+- [`Notify ClickUp task watchers and @mentions, not just assignees`] (8f07107)
+- [Add periodic 6-hour update check for desktop platforms] (6235b08)
+- [Show clock-in status immediately, add subtasks section and hide-done filter to ClickUp tasks] (5edf466)
+- [Parallelize ClickUp cache reads on startup to cut Android cold-start delay] (edf6e6c)
+- [Sync ClickUp tasks on Android app resume and lock app to portrait orientation] (3f8705a)
+- [Add mobile task detail tabs, fix layout bugs, remove custom fields, and clean up profile/back navigation] (6a5b0f4)
+- feat: new app icon for android (c8107a2)
+- feat: LAN File Transfer (d6f9f4a)
+- [Add bottom padding to clear floating nav pill, reorganize dashboard clock-in card, and show friendly Google Tasks network errors] (69c7fdd)
+- [Add tabbed My Tasks widget to Android dashboard, fix Google auth sign-out race and token exchange bug] (038274f)
+- [Add REQUEST_INSTALL_PACKAGES permission to fix silent APK install failure] (7c583c3)
+- [Redesign Android login screen, add Google sign-in timeout, and fix nav pill back/chat-hide behavior] (32c385d)
+- [Add focus-aware retry to startup update check instead of single silent attempt] (ac62430)
+
+<details><summary>Full commit list</summary>
+
+- [`Notify ClickUp task watchers and @mentions, not just assignees`] (8f07107)
+- [Add periodic 6-hour update check for desktop platforms] (6235b08)
+- [Show clock-in status immediately, add subtasks section and hide-done filter to ClickUp tasks] (5edf466)
+- [Parallelize ClickUp cache reads on startup to cut Android cold-start delay] (edf6e6c)
+- [Sync ClickUp tasks on Android app resume and lock app to portrait orientation] (3f8705a)
+- [Add mobile task detail tabs, fix layout bugs, remove custom fields, and clean up profile/back navigation] (6a5b0f4)
+- feat: new app icon for android (c8107a2)
+- feat: LAN File Transfer (d6f9f4a)
+- [Add bottom padding to clear floating nav pill, reorganize dashboard clock-in card, and show friendly Google Tasks network errors] (69c7fdd)
+- [Add tabbed My Tasks widget to Android dashboard, fix Google auth sign-out race and token exchange bug] (038274f)
+- [Add REQUEST_INSTALL_PACKAGES permission to fix silent APK install failure] (7c583c3)
+- [Redesign Android login screen, add Google sign-in timeout, and fix nav pill back/chat-hide behavior] (32c385d)
+- [Add focus-aware retry to startup update check instead of single silent attempt] (ac62430)
+
+</details>
+
 ## v3.8.20 - 2026-07-29
 
 - [Sign Android release APKs and publish them via the GitHub release pipeline] (ad88912)

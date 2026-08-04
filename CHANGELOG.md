@@ -1,3 +1,53 @@
+## v3.12.23 - 2026-08-04
+
+- [Auto-close Android list-selector bottom sheet after picking a list] (baaa07f)
+- [Make Team Online widget refresh live via Realtime instead of a stale one-shot fetch] (3d47986)
+- fix: [release-notes generation using a shut-down Gemini model] (aaa2b9b)
+- fix: [Use Flutter's reassembleApplication() for theme/accent refresh instead of manual Element walk] (b03d390)
+- fix: [theme/accent refresh destroying navigation state] (1f9e11d)
+- [Add ability to dismiss finished file transfers from the chat footer] (492017d)
+- [Fix unreadable "NO DUE DATE" label in dark mode ClickUp task cards] (2e346bb)
+- [Add responsive Appearance picker to Android Settings, collapsed behind a clickable row] (20ca50e)
+- [Fix ClickUp tasks flashing then vanishing on dashboard cold start (Android)] (3afde45)
+- [Move Settings off Android bottom nav into AppBar shortcut, relocate Sign Out, and replace chat status text with dots] (e94301c)
+- [Fix Activity tab not scrolling to latest comment on first open] (ab782d3)
+- [Show real profile pictures in Team Online widget] (f6c1c90)
+- [Fix ClickUp comment image and YouTube link previews (embed attempt reverted)] (21fe2d7)
+- [Open a zoomable viewer with download on ClickUp comment image tap] (15274f2)
+- feat: [Render ClickUp comment image attachments via task-level attachment cross-reference] (6a2a239)
+- fix: [MCP Danger Zone delete button never enabling and deploy its Edge Function] (c733852)
+- [Fix MCP delete-user action popping the wrong navigator route] (9c2580b)
+- feat: [Show live throughput on active P2P transfers] (b860135)
+- feat: [Replace LAN chat's peer-connection debug panel with profile, tasks, and shared files] (69e2b85)
+- chore: [Rename google_comms_* files/classes to comms_* now that Google Chat is gone] (c508196)
+- [Sort roster alphabetically, add tap-to-chat, drop Google Chat UI] (c1bac8c)
+
+<details><summary>Full commit list</summary>
+
+- [Auto-close Android list-selector bottom sheet after picking a list] (baaa07f)
+- [Make Team Online widget refresh live via Realtime instead of a stale one-shot fetch] (3d47986)
+- fix: [release-notes generation using a shut-down Gemini model] (aaa2b9b)
+- fix: [Use Flutter's reassembleApplication() for theme/accent refresh instead of manual Element walk] (b03d390)
+- fix: [theme/accent refresh destroying navigation state] (1f9e11d)
+- [Add ability to dismiss finished file transfers from the chat footer] (492017d)
+- [Fix unreadable "NO DUE DATE" label in dark mode ClickUp task cards] (2e346bb)
+- [Add responsive Appearance picker to Android Settings, collapsed behind a clickable row] (20ca50e)
+- [Fix ClickUp tasks flashing then vanishing on dashboard cold start (Android)] (3afde45)
+- [Move Settings off Android bottom nav into AppBar shortcut, relocate Sign Out, and replace chat status text with dots] (e94301c)
+- [Fix Activity tab not scrolling to latest comment on first open] (ab782d3)
+- [Show real profile pictures in Team Online widget] (f6c1c90)
+- [Fix ClickUp comment image and YouTube link previews (embed attempt reverted)] (21fe2d7)
+- [Open a zoomable viewer with download on ClickUp comment image tap] (15274f2)
+- feat: [Render ClickUp comment image attachments via task-level attachment cross-reference] (6a2a239)
+- fix: [MCP Danger Zone delete button never enabling and deploy its Edge Function] (c733852)
+- [Fix MCP delete-user action popping the wrong navigator route] (9c2580b)
+- feat: [Show live throughput on active P2P transfers] (b860135)
+- feat: [Replace LAN chat's peer-connection debug panel with profile, tasks, and shared files] (69e2b85)
+- chore: [Rename google_comms_* files/classes to comms_* now that Google Chat is gone] (c508196)
+- [Sort roster alphabetically, add tap-to-chat, drop Google Chat UI] (c1bac8c)
+
+</details>
+
 ## v3.10.15 - 2026-07-31
 
 - [`Notify ClickUp task watchers and @mentions, not just assignees`] (8f07107)

@@ -1,3 +1,51 @@
+## v3.17.8 - 2026-08-05
+
+### New
+* **Full-Screen Clock-In Gate:** Added a full-screen gate interface active until clocking in, featuring a pinned sign-out avatar and editable, randomized attributed quotes.
+* **Universal Search Bar:** Introduced a universal search bar across the application.
+* **Private Personal Task Manager:** Replaced the Google Tasks integration with a built-in, private personal task manager.
+* **Chat Cloud Relay & Presence:** Added a Supabase cloud-relay fallback for sending chat messages off-LAN, alongside three-state presence indicators (LAN, relay, offline) in the Comms roster and chat headers.
+* **macOS DMG Installer Styling:** Updated and styled the macOS DMG installer package.
+
+### Improved
+* **ClickUp Sync & Live Updates:** Enhanced ClickUp synchronization to handle partial failures gracefully and added webhook-driven live updates.
+* **Crew Profile Dialog:** Reworked and updated the crew profile dialog and views.
+* **Task Management UI:** Streamlined personal task controls by replacing text buttons with calendar and task completion icons, and improved task card icon alignments.
+* **Elapsed Time Formatting:** Formatted elapsed shift hours as `XXh YYm` instead of the ambiguous `HH:MM`.
+
+### Fixed
+* **Dashboard & Overlay Graphics:** Resolved lingering clock-in button and avatar overlays when leaving the dashboard tab, and corrected layout lines on the Clock-In Gate.
+* **Shift & Attendance Data:** Fixed attendance data corruption, centralized stats calculations, cleared stale clock-out states after break re-clock-ins, and ensured local shift caches are purged after dispute/consolidation updates.
+* **Search & Task Sync:** Fixed search and task synchronization bugs.
+
+<details><summary>Full commit list</summary>
+
+- fix: clear stale clock-in button/avatar overlay rect when leaving dashboard tab (fddaa79)
+- feat: correct search/task-sync bugs, rework crew profile dialog (85e5a5d)
+- major functionality changes and fixes to universal search bar (6c17545)
+- feat: universal search bar (46cd8ea)
+- fix: task card icon aligments (23d78dd)
+- remove clear completed text and replace with icon for personal tasks (c00a8f3)
+- replace Set/Change text button with edit calendar icon (9b91db4)
+- feat: replace Google Tasks with private Personal Task Manager (42b75a5)
+- feat: add attributed quotes to Clock-In Gate rotation (dc1169e)
+- feat: style the macOS DMG installer with create-dmg (c945355)
+- feat: pin a sign-out-only avatar on the Clock-In Gate (662b7eb)
+- fix: wrap Clock-In Gate content in Material to fix debug yellow underline (efd950c)
+- feat: add editable, randomized quotes to the Clock-In Gate (77d0286)
+- feat: add full-screen Clock-In Gate shown until the user clocks in (8de17f9)
+- fix: format elapsed hours as "XXh YYm" instead of ambiguous "HH:MM" (a19b263)
+- fix: don't show a stale clock-out when re-clocked-in after a break (a618404)
+- fix: [purge stale local shift cache after dispute/consolidation corrections] (faa0b1f)
+- fix: [correct attendance data corruption and centralize stats calculation] (84f9519)
+- fix: [make ClickUp sync resilient to partial failures and add webhook-driven live updates] (1407911)
+- [Add LAN/relay/offline presence status to chat detail header, drop raw IP] (a6a6fbd)
+- [Add three-state LAN/relay/offline presence dots to Comms roster] (6391110)
+- feat(chat): [Add Supabase cloud-relay fallback for off-LAN chat messages] (3d53f96)
+- [Try multiple current Gemini models for release notes with fallback logging] (c76b085)
+
+</details>
+
 ## v3.12.23 - 2026-08-04
 
 - [Auto-close Android list-selector bottom sheet after picking a list] (baaa07f)

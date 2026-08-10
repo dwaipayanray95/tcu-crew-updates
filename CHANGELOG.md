@@ -1,3 +1,54 @@
+## v3.20.7 - 2026-08-10
+
+### New
+* **Chat Content Search:** Universal search now includes chat message content.
+* **Cross-Device Chat Sync & Backups:** Added chat history syncing over LAN and Google Drive, unified manual and automatic backup triggers, and added an app-close safety net that backs up data before quitting.
+* **File Sharing Capabilities:** Introduced drag-and-drop multi-file attachments and a new visual file-offer dialog.
+* **Attendance & Leave Features:** Added a "clocked-in-since" status indicator and a custom DD/MM/YYYY date range input for leave and WFH request dialogs.
+
+### Improved
+* **Chat & File Transfers:** Made P2P chat bubble text selectable with high-contrast highlights, labeled transfer speeds with explicit upload/download directions, and automatically brought the app to the foreground on incoming file offers.
+* **UI & Indicators:** Added LAN/relay status coloring to the Team Online card, adjusted the Comms sidebar indicator layout, and refined leave-type dropdown styling.
+
+### Fixed
+* **App Close & Shutdown:** Forced immediate process exit on window close to eliminate shutdown hangs on Windows, and ensured activity-tracking data syncs during the app-close backup window.
+* **Database Migration:** Renamed the local database file to `tcu_crew.db` with automatic legacy data migration.
+* **Chat Sync & History:** Resolved duplicate chat history entries, false "delivered" statuses, data loss during background syncs, and file-offer handshake retries on transient connection failures.
+* **Authentication & Settings:** Fixed force-sign-out issues on Android by dropping expired Google scopes, and repaired update-checker feedback in settings.
+* **Integrations & Aggregation:** Deduped monthly shift totals by calendar day and resolved missing email addresses for ClickUp task watchers using team profiles.
+
+<details><summary>Full commit list</summary>
+
+- fix(settings): repair update-checker feedback + per-platform release tags (0463a75)
+- feat(search): wire chat message content into universal search (0c5b613)
+- fix(comms): sync activity-tracking data during app-close backup window (dddcb58)
+- fix(db): rename local database file to tcu_crew.db with legacy migration (73d36ed)
+- [feat(comms): app-close safety net now hides-and-backs-up before quitting] (2daaec7)
+- [feat(comms): unify settings and chat backup triggers and manual backup button] (64c241e)
+- fix(comms): correct history dupes, false-delivered status, and sync data loss (64b0c93)
+- feat(comms): app-close safety, two-tier Drive backup, foreground sync fix (3159eb8)
+- fix(comms): correct history dupes, false-delivered status, and sync data loss (792e983)
+- feat(comms): cross-device chat history sync (LAN + Drive backup) (762fdb8)
+- fix(comms): retry file-offer handshake on transient connection failure (2761f6d)
+- fix(comms): match app dialog design language for incoming file offers (e52bf5a)
+- feat(comms): visual file-offer dialog + drag-and-drop multi-file attachments (1914902)
+- fix(comms): foreground app on incoming LAN file offer (2ef10ad)
+- fix(comms): label transfer speed with upload/download direction (7e49c9c)
+- chore: remove dead Google Chat/Tasks code, rename google_chat_service.dart to google_directory_service.dart, dedupe docs (6a3f22b)
+- feat: add clocked-in-since status and consolidate attendance/presence math into shared calculations (f10b35f)
+- feat: replace built-in date range picker with a custom cursor-aware DD/MM/YYYY input for the leave/WFH dialog (fb5be80)
+- fix: give leave-type dropdown items explicit theme styling and default date range to "Select range" placeholder (9750133)
+- feat: add date range picker to leave/WFH request dialog on desktop and mobile (9acde2c)
+- fix: force process exit after window close instead of waiting for background timers/sockets to drain (fixes slow close on Windows) (01aed45)
+- fix: use high-contrast, bubble-aware selection highlight for chat text instead of the theme's low-opacity default (a38f3df)
+- make LAN P2P chat bubble text selectable (was only fixed on the unused Google Chat bubble path) (364b605)
+- add LAN/relay presence coloring to Team Online card and move Comms sidebar indicator to the right (1ec2895)
+- fix: dedupe monthly shift totals by calendar day and log silent consolidation-purge failures (277d4f4)
+- fix: [resolve watcher emails via team members when ClickUp's watcher objects omit email] (6ca4a37)
+- fix: stop force-signing users out on Android by dropping stale Google Chat scopes and no longer treating expired-token responses as scope failures (b23eb62)
+
+</details>
+
 ## v3.17.8 - 2026-08-05
 
 ### New

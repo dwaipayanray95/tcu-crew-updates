@@ -1,3 +1,46 @@
+## v3.22.1 - 2026-08-12
+
+### New
+
+* **Expense Filing & Reimbursements:** Added expense filing functionality with local-first sync, along with a reimbursements summary card on user profiles.
+* **Leave & Dispute Management:** Introduced a dedicated leave/dispute manager and consolidated dispute UI tools.
+* **Chat Message Replies & Reactions:** Added support for message replies, message reactions, and an alert chime for incoming messages.
+* **File Handling Improvements:** Chat files can now auto-open after download, be revealed in the system file explorer, and display in scrollable lists.
+
+### Fixed
+
+* **Authentication:** Prevented forced user sign-outs during temporary Google token refresh failures.
+* **Comms & File Transfers:** Resolved an issue where desktop reaction pickers failed to open, fixed silent timeouts during large LAN file transfers, and made plain-text URLs clickable in chat and ClickUp comments.
+* **Reimbursements:** Deleting a reimbursement entry now automatically deletes its corresponding Google Drive attachments.
+* **Dashboard & UI:** Fixed visibility bugs on the dashboard clock button, corrected the "Reimbursements" shortcut tile label pluralization, and adjusted top navigation and chat header heights.
+* **ClickUp Webhooks:** Repaired suspended ClickUp webhooks and added webhook recreation and health-status tooling.
+
+### Improved
+
+* **Dashboard Analytics:** Standardized dashboard statistics using a shared attendance utility and added collapsible breakdown views.
+* **Chat Layout:** Enhanced chat UI with dynamic message bubble sizing, tighter message spacing, and improved visual gaps when switching senders.
+
+<details><summary>Full commit list</summary>
+
+- refactor(dashboard): route stats through shared attendance utility, add collapsible breakdowns (0656f81)
+- feat(leave-dispute): add leave/dispute manager and consolidate dispute UI (f658409)
+- fix(reimbursements): delete Drive attachment files when an entry is deleted (ca6acba)
+- fix(dashboard): pluralize "Reimbursement" shortcut tile label (2f277a2)
+- fix(dashboard): fix clock button visibility bugs (0ddde95)
+- fix(ui): shrink top nav and chat header height (3a024f1)
+- fix(comms): dynamic bubble sizing, tighter spacing, sender-switch gaps (25f517a)
+- feat(fix(comms): fix dead reaction picker, add message replies): Reaction picker was silently doing nothing on desktop: the gutter icon's handler read a stray `_activeLanPeer` field that was declared but never assigned anywhere in the file, so it was always null and the picker bailed before ever opening. Reply's gutter icon worked fine since setReplyTarget doesn't need a peer. Fixed by wiring through the real `peer` (commsState.activePeer!) already used everywhere else in the view, and deleted the dead field. (a2fd062)
+- feat(comms): add message reactions and incoming-alert chime (e48bd26)
+- feat(comms): auto-open downloads, reveal files in explorer, scrollable list (b28052a)
+- fix(comms): fix large LAN file transfers timing out and failing silently (914da9e)
+- fix(links): make plain-text URLs clickable in chat and ClickUp comments (4161083)
+- feat(profile): add reimbursements summary card, clean up header (2030f0a)
+- feat(reimbursements): add expense filing feature with local-first sync (fab8e45)
+- fix(clickup): repair suspended webhook, add recreate + health-status tooling (09c454f)
+- fix(auth): stop forced sign-out on transient Google token refresh failure (329210e)
+
+</details>
+
 ## v3.20.7 - 2026-08-10
 
 ### New

@@ -1,3 +1,31 @@
+## v.3.22.8 - 2026-08-19
+
+### New
+* **ClickUp Comment Management:** Full comment lifecycle support—including editing, deleting, assigning, and threaded replies—along with webhook notifications for comment assignees and List watchers.
+* **Company Holiday Declarations:** Admins can now declare official company holidays that apply effects across attendance calculations.
+* **Admin Tools & Version Tracking:** Added app version tracking, force clock-out capabilities for admins, and cleanup of update triggers.
+* **Chat Composer Shortcut:** Pressing `Shift+Enter` in the chat composer now inserts a newline.
+
+### Improved
+* **ClickUp Task Header:** Condensed the ClickUp task detail header into a single, streamlined row.
+* **Dependencies:** Updated project dependencies and removed unused packages.
+
+### Fixed
+* **Data Syncing:** Resolved an issue where cloud-closed shifts and personal tasks could get stuck in a sync loop.
+* **CI Build Runner:** Fixed Windows release workflow by removing reliance on Chocolatey for `minisign`.
+
+<details><summary>Full commit list</summary>
+
+- fix(ci): stop relying on chocolatey for minisign on Windows runner (89e3819)
+- feat(clickup): notify comment assignee and List watchers via webhook (2188fd6)
+- feat(clickup): full comment lifecycle — edit, delete, assign, threaded replies UX (ccac3c3)
+- refactor(clickup): condense task detail header into a single lean row (3445e47)
+- fix(sync): stop cloud-closed shifts and personal tasks getting stuck; feat(admin): version tracking, force clock-out, update trigger cleanup (35abc9c)
+- feat(admin): add company holiday declaration with attendance-wide effects (32a75e4)
+- chore(deps): update dependencies, remove unused; feat(comms): Shift+Enter newline in chat composer (d9cc1db)
+
+</details>
+
 ## v3.22.1 - 2026-08-12
 
 ### New

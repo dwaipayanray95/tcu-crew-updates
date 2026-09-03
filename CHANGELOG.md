@@ -1,3 +1,19 @@
+## v3.22.12 - 2026-09-03
+
+### Fixed
+
+* **Reimbursements:** Re-sync the backup every time the reimbursements screen is opened to ensure data stays up to date.
+
+### Improved
+
+* **Code Quality & CI:** Updated analysis options, Gradle properties, and GitHub Actions release workflows.
+
+<details><summary>Full commit list</summary>
+
+- fix(reimbursements): re-sync backup on every screen open; bump to v3.22.12 (7f6d34e)
+
+</details>
+
 ## v.3.22.8 - 2026-08-19
 
 ### New
